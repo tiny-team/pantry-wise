@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { Dosis } from 'next/font/google';
+import { Comfortaa } from 'next/font/google';
 import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/Navbar';
 import Providers from './providers';
 
-const dosis = Dosis({ subsets: ['latin'] });
+const comfortaa = Comfortaa({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Next.js Application Template',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const classString = `${dosis.className} wrapper`;
+  const classString = `${comfortaa.className} wrapper`;
   return (
     <html lang="en">
       <body className={classString}>
