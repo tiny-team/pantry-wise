@@ -6,9 +6,20 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+:root {
+  --aqua: #cde1e0; /* Bright red */
+  --black: #212121; /* Deep black */
+  --white: #ffffff; /* Pure white for contrast */
+  --teal: #80b7a1; /* Soft teal */
+  --gray-green: #aec3ba; /* Muted gray-green */
+  --charcoal: #686c68; /* Charcoal gray */
+  --gray: #9a9893; /* Gray */
 }
