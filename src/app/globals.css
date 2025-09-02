@@ -15,9 +15,9 @@ body {
 }
 
 :root {
-  --aqua: #cde1e0; /* Bright red */
+  --aqua: #cde1e0; /* Aqua */
   --black: #212121; /* Deep black */
-  --white: #ffffff; /* Pure white for contrast */
+  --white: #ffffff; /* Pure white */
   --teal: #80b7a1; /* Soft teal */
   --gray-green: #aec3ba; /* Muted gray-green */
   --charcoal: #686c68; /* Charcoal gray */
