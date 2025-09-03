@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
-import { Ubuntu } from 'next/font/google';
+import { Istok_Web } from 'next/font/google';
 import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/Navbar';
 import Providers from './providers';
 
-const ubuntu = Ubuntu({
+const istokWeb = Istok_Web({
   subsets: ['latin'],
-  weight: '300',
+  weight: '400',
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const classString = `${ubuntu.className} wrapper`;
+  const classString = `${istokWeb.className} wrapper`;
   return (
     <html lang="en">
       <body className={classString}>
