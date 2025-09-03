@@ -1,12 +1,15 @@
 import type { Metadata } from 'next';
-import { Comfortaa } from 'next/font/google';
+import { Ubuntu } from 'next/font/google';
 import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/Navbar';
 import Providers from './providers';
 
-const comfortaa = Comfortaa({ subsets: ['latin'] });
+const ubuntu = Ubuntu({
+  subsets: ['latin'],
+  weight: '300',
+});
 
 export const metadata: Metadata = {
   title: 'Next.js Application Template',
@@ -18,7 +21,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const classString = `${comfortaa.className} wrapper`;
+  const classString = `${ubuntu.className} wrapper`;
   return (
     <html lang="en">
       <body className={classString}>
