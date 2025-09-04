@@ -6,9 +6,18 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+:root {
+  --green: #18B005; /* Vivid green */
+  --black: #212121; /* Deep black */
+  --white: #ffffff; /* Pure white */
+  --teal: #125E58; /* Deep teal */
+  --soft-green: #A1E1BD; /* Soft green */
 }
