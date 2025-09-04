@@ -26,3 +26,9 @@ body {
   background-color: var(--green) !important;
   border-color: var(--green) !important;
 }
+
+.btn-secondary {
+  background-color: var(--white) !important;
+  border-color: var(--green) !important;
+  color: var(--green) !important;
+}

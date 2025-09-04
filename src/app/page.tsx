@@ -16,7 +16,7 @@ const Home = () => (
               </a>
             </Col>
             <Col xs={3}>
-              <a href="/auth/signin" className="btn btn-primary btn-lg">
+              <a href="/auth/signin" className="btn btn-secondary btn-lg">
                 Sign In
               </a>
             </Col>
