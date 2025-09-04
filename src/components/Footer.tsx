@@ -11,7 +11,7 @@ const Footer = () => (
         <br />
         Honolulu, HI 96822
         <br />
-        <a href="http://ics-software-engineering.github.io/nextjs-application-template">Template Home Page</a>
+        <a href="https://tiny-team.github.io/">PantryWise Organization Page</a>
       </Col>
     </Container>
   </footer>
