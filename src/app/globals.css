@@ -21,3 +21,14 @@ body {
   --teal: #125E58; /* Deep teal */
   --soft-green: #A1E1BD; /* Soft green */
 }
+
+.btn-primary {
+  background-color: var(--green) !important;
+  border-color: var(--green) !important;
+}
+
+.btn-secondary {
+  background-color: var(--white) !important;
+  border-color: var(--green) !important;
+  color: var(--green) !important;
+}
