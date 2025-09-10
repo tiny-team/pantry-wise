@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { signIn } from 'next-auth/react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -48,7 +49,9 @@ const SignUp = () => {
       <Container>
         <Row className="justify-content-center">
           <Col xs={5}>
-            <h1 className="text-center">Sign Up</h1>
+            <div className="text-center mb-3">
+              <Image src="/PantryWise_Logo.png" alt="PantryWise Logo" width={200} height={150} />
+            </div>
             <Card>
               <Card.Body>
                 <Form onSubmit={handleSubmit(onSubmit)}>
